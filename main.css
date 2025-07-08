@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{ width:100%; }
+ 
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+	background-color:#FFFFFF;
+    
+}
+.icon{ float:left; padding-bottom:10px; margin-right: -30px;}
+
+.mini-icon{ float:left;  margin:10px 10px 0 10px;}
+.menu { float:right;
+    width:50%;
+    margin-top:30px;
+	margin-right: 30px;
+
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-decoration:none;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#7fb385;
+	text-decoration:none;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:a1716f;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:27px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+
+}
+ 
+
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#FFFFFF;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#F3E8E8;
+}
+.home {padding-top:20px; padding-left:30px;}
+
+home-re {width:100px; float:left;   }
+
+#top {background-color:#fcfcfb;}
+
+.container { width:700px; margin:auto;
+	height:500px;	 background-image:url(img/bookshelf.png); }
+	
+#books a:hover {  height:10px; width:20px; display:inline-table;   
+  
+ }	
+
+.c1 { width:280px; margin-top:60px; margin-right:20px; margin-left:30px; margin-bottom:30px;  }
+
+.c2 {width:280px; margin-bottom: 30px;  margin-left:40px; }
+
+.c3 { width:280px;margin-left: 30px; margin-bottom: 60px; margin-right: 40px; }
+.c4{ width:280px; margin-bottom: 60px; margin-left:20px;   }
+
+#about{ padding-top: 80px;   width: 1000px; padding-left: 30px; }
+
+h1{ padding:20 20 50 20; color:#9d5273; font-size:43px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; margin-bottom:30px;   }
+
+h2{ padding:20 20 50 20; color:#7fb385; font-size:33px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; margin-bottom:30px; }
+
+p{padding:20 20 80 20; color:#302B2B; font-size:20px; font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;    }
+
+.bulp{ float:left; margin-bottom:390px;}
+.apple{float:left; padding-bottom:70px; }
+.hanan{float:left; margin-bottom:30px;}
+
+h3{ padding:80 30 20 10; color:#9d5273; font-size:22px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; margin-top:50px;  float:left;}
+
+
+
+h3 a:hover {color:#7fb385; }
+
+#flash{ padding: 70px 0 0 50px;   }
+
+.welcome{ padding-bottom:70px;}
+
+.meaning{padding-bottom:70px; }
+.goals{padding-bottom:70px; }
+.contact {padding-bottom:70px; }
+
+#back{ background-image:url(img/back.gif);}
+
