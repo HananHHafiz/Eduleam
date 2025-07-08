@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link rel="stylesheet" href="home1.css" type="text/css" />
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+
+
+
+    </head>
+<body>
+
+    <div id="library">
+
+     <nav class="menu">
+        <ul class="clearfix">
+            <li><img class="icon" src="img/library-icon.png" /> <a href="library.html">Library <span class="arrow">&#9660;</span></a>
+
+                <ul class="sub-menu">
+                <li><img class="mini-icon" src="img/1icon.png" /><a href="color's book.html">Colors Book</a></li>
+                     <li ><img class="mini-icon" src="img/2icon.png" /><a href="feelings book.html">Feelings Book </a></li>
+        <li><img class="mini-icon" src="img/3icon.png" /><a href="Numbers book.html">Numbers Book </a></li>
+        <li><img class="mini-icon" src="img/4icon.png" /><a href="alpahbet book1.html">Alpahbet Zoo Book</a></li>
+
+                </ul>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+
+
+
+    </div>
+
+    <div>
+     <div id="about">
+
+    <nav class="menu">
+<ul class="clearfix">
+           <li class="about"><a href="about.html">About</a></li>
+</ul></div>
+
+<div id="flash-container" style="text-align: center;">
+</div>
+
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.addEventListener("load", () => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    document.getElementById("flash-container").appendChild(player);
+    player.load("img/back.swf"); // replace with your SWF file name
+  });
+</script>
+
+<div id="flash-container" style="text-align: center;">
+</div>
+
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.addEventListener("load", () => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    document.getElementById("flash-container").appendChild(player);
+    player.load("img/pic2.swf"); // replace with your SWF file name
+  });
+</script>
+
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.addEventListener("load", () => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    document.getElementById("flash-container").appendChild(player);
+    player.load("img/video copy.swf"); // replace with your SWF file name
+  });
+</script>
+
+
+	</body>
+
+
+</html>
